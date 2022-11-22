@@ -1,0 +1,14 @@
+.banner{height: 87px;}
+.swiper-container01{ /* position: relative; */ padding: 21px 0 0 11px; ; width: 1618px; overflow: hidden; }
+.swiper-container01>.b_main{  /* overflow: hidden *//* width:calc( 100% - 115px ); */ /* display: flex; */}
+/* .swiper-container01 .b_main .b_list{width: 5000%; background-color: violet;}
+.swiper-container01 .b_main .b_list ul li{float: left; width: 182px; }
+.swiper-container01 .b_main .b_list ul li a img{width: 173px; height: 48px;} */
+.swiper-container01>.swiper-wrapper{display: flex;width: 1618px;}
+.swiper-container01>.swiper-wrapper .swiper-slide{width: 173px !important; /* margin-right: 5px; */}
+
+.swiper-container01>.b_button{width: 105px; height: 34px; position: absolute; top: 28px; right: 105px; border: 1px solid #ddd; display: flex;}
+.swiper-container01>.b_button a.stop{width: 27px; height: inherit; display: block; text-align: center; line-height: 38px; border-right: 1px solid #ddd;}
+.swiper-container01>.b_button div{width: 27px; height: inherit; text-align: center; line-height: 35px; border-right: 1px solid #ddd; cursor: pointer;}
+.swiper-container01>.b_button div.next01{line-height: 39px;}
+.swiper-container01>.b_button a.more{width: 27px; height: inherit; display: block; text-align: center; line-height: 37px;}
